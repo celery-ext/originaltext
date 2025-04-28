@@ -34,7 +34,7 @@ elif(i >= 8):
 b = []
 for i in range(1,11):
     b.append(i)
-    
+
     if(i < 3):
         print(f'{i}は3より小さいです')
     elif(i==3):
@@ -53,8 +53,9 @@ print(False or True)
 print(not (True))
 
 # for 文からbreak文で脱出しようね
+# continue を使おうね
 i=0
-while(1):
+while 0:
     if(i == 8):
         break
     i+=1
